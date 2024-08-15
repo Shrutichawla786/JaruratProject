@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: lightgray;
+}
+
+.container {
+    text-align: center;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter button {
+    padding: 10px;
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#number {
+    font-size: 24px;
+    margin: 0 20px;
+}
+
+.progress-container {
+    margin-top: 20px;
+    width: 300px;
+    background-color:white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#progress-bar {
+    height: 20px;
+    background-color: darkgray;
+    width: 0;
+    transition: width 0.3s ease;
+}
+
+.undo-redo {
+    margin-top: 20px;
+}
+
+.undo-redo button {
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color:white;
+}
